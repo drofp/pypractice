@@ -47,27 +47,24 @@ def decide_winner(player1Choice, player2Choice):
     """Decides who wins the round.
     Assumes that inputs are either 'Rock', 'Paper', 'Scissors'"""
     
+    if player1Choice == player2Choice:
+        return "It's a Tie"
+
     if player1Choice == "Rock":
         if player2Choice == "Scissors":
             return "Player 1"
         elif player2Choice == "Paper":
             return "Player 2"
-        elif player2Choice == "Rock":
-            return "It's a Tie"
     elif player1Choice == "Paper":
         if player2Choice == "Rock":
             return "Player 1"
         elif player2Choice == "Scissors":
             return "Player 2"
-        elif player2Choice == "Paper":
-            return "It's a Tie"
     elif player1Choice == "Scissors":
         if player2Choice == "Paper":
             return "Player 1"
         elif player2Choice == "Rock":
             return "Player 2"
-        elif player2Choice == "Scissors":
-            return "It's a Tie"
 
 def play_one_game():
     player1Choice, player2Choice = declare_hand()
