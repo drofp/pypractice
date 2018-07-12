@@ -9,3 +9,4 @@ https://www.practicepython.org/chilis/
 ## Future Improvements
 - [ ] ex6 - Make a recursive version of the palidrome checker
 - [ ] ex8 - Try Alternate, shorter solutions
+- [ ] ex13 - do it with fast doubling
