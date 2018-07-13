@@ -10,3 +10,5 @@ https://www.practicepython.org/chilis/
 - [ ] ex6 - Make a recursive version of the palidrome checker
 - [ ] ex8 - Try Alternate, shorter solutions
 - [ ] ex13 - do it with fast doubling
+- [ ] ex17 - use best practices from https://realpython.com/python-web-scraping-practical-introduction/
+- [ ] ex17 - try different HTML parsers
